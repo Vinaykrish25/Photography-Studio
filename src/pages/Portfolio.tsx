@@ -18,7 +18,7 @@ const Portfolio: React.FC = () => {
           galleryApi.getCategories()
         ]);
         setItems(galleryRes.data);
-        setCategories(categoriesRes.data);
+        setCategories(categoriesRes.data as string[]);
       } catch (error) {
         console.error('Error fetching gallery data', error);
       } finally {

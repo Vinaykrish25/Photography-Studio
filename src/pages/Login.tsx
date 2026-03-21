@@ -19,7 +19,7 @@ const Login: React.FC = () => {
     setError('');
     try {
       const res = await authApi.login({ email, password });
-      setAuth(res.data.user, res.data.access_token);
+      setAuth(res.data.user, res.data.token);
       navigate('/admin');
     } catch (err: any) {
       setError(err.response?.data?.message || 'Login failed. Please check your credentials.');
