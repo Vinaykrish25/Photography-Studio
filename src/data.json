@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@photography.com",
+      "password": "password123",
+      "name": "Admin User",
+      "role": "admin"
+    }
+  ],
+  "services": [
+    {
+      "_id": "s1",
+      "title": "Wedding Photography",
+      "category": "Events",
+      "description": "Comprehensive coverage of your special day, from preparation to the final dance. Includes two photographers and a high-end digital gallery.",
+      "price": 2500,
+      "features": [
+        "8 Hours Coverage",
+        "Two Photographers",
+        "500+ Edited Photos",
+        "Online Gallery",
+        "Print Rights"
+      ]
+    },
+    {
+      "_id": "s2",
+      "title": "Portrait Session",
+      "category": "Studio",
+      "description": "Professional studio or outdoor portrait session for individuals, couples or families. Perfect for headshots or memories.",
+      "price": 3500,
+      "features": [
+        "1 Hour Session",
+        "20 Edited Photos",
+        "2 Outfit Changes",
+        "Professional Posing",
+        "Digital Delivery"
+      ]
+    },
+    {
+      "_id": "s3",
+      "title": "Commercial Shoots",
+      "category": "Corporate",
+      "description": "High-impact visual content for your brand, products, or corporate team. Tailored to your marketing needs.",
+      "price": 4500,
+      "features": [
+        "Product Photography",
+        "Team Headshots",
+        "Full Usage Rights",
+        "Fast Turnaround",
+        "Brand Consultation"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "_id": "g1",
+      "title": "Coastal Wedding",
+      "category": "Wedding",
+      "description": "A beautiful sunset wedding on the California coast.",
+      "imageUrl": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80"
+    },
+    {
+      "_id": "g2",
+      "title": "Urban Style",
+      "category": "Portrait",
+      "description": "Contemporary portraits shot in the heart of the city.",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80"
+    },
+    {
+      "_id": "g3",
+      "title": "Mountain Love",
+      "category": "Wedding",
+      "description": "Elopement session in the Swiss Alps.",
+      "imageUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80"
+    },
+    {
+      "_id": "g4",
+      "title": "The Artist",
+      "category": "Portrait",
+      "description": "Creative lighting portrait session.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80"
+    }
+  ],
+  "bookings": []
+}
